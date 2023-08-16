@@ -1,0 +1,32 @@
+<h1>user form</h1>
+<form>
+    <div class="row">
+    <div class="col-md-6">
+      <mat-form-field class="w-100 example-full-width" appearance="outline">
+        <mat-label>First name</mat-label>
+        <input matInput placeholder="FirstName" />
+      </mat-form-field>
+    </div>
+    <div class="col-md-6">
+      <mat-form-field class="w-100 example-full-width" appearance="outline">
+        <mat-label>Middle name</mat-label>
+        <input matInput placeholder="middle name"  />
+      </mat-form-field>
+    </div>
+    <div class="col-md-6">
+      <mat-form-field class="w-100 example-full-width" appearance="outline">
+        <mat-label>Last name</mat-label>
+        <input matInput placeholder="lastname" />
+      </mat-form-field>
+    </div>
+    <div class="col-md-6">
+      <mat-form-field class="w-100 example-full-width" appearance="outline">
+        <mat-label>Address</mat-label>
+        <input matInput placeholder="address"  />
+      </mat-form-field>
+    </div>
+  </div>
+  <button mat-raised-button color="primary"><mat-icon>save</mat-icon>save</button>
+  <button mat-raised-button color="warn" (click)="onClose()">close</button>
+
+</form>
